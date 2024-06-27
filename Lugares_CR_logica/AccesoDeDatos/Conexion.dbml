@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="lugares_costa_rica" Class="ConexionDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-CCETU25\SQLEXPRESS;Initial Catalog=lugares_costa_rica;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="Lugares_CR_logica.Properties.Settings" SettingsPropertyName="lugares_costa_ricaConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.SP_insertar_lugares" Method="SP_insertar_lugares">
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="descripcion" Type="System.String" DbType="Text" />
+    <Parameter Name="direccion" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
