@@ -1,0 +1,1 @@
+# Lugares_CR_logica
